@@ -1,13 +1,15 @@
-let nombreProducto = "Coca Cola";
-const cantidad = parseInt(
-  prompt("Cuántos productos de " + nombreProducto + " desea comprar?")
-);
-const precioUnitario = 1000;
-
-function sumarProductos(precioUnitario, cantidad) {
-  return precioUnitario * cantidad;
+let products = ["Pan", "Leche", "Carne", "Verdura", "Fruta"];
+console.log("Array de productos: ", products);
+for (let i = 0; i < products.length; i++) {
+  console.log(`Producto ${i + 1}: ${products[i]}`);
 }
-alert(
-  "El precio total de su compra es de: " +
-    sumarProductos(precioUnitario, cantidad)
-);
+
+console.log("\nSimulando ventas...");
+
+for (let i = products.length; i > 0; i--) {
+  const product_vendido = products.pop();
+  console.log(`\nProducto vendido: ${product_vendido}`);
+  console.log(
+    `Actualización de stock: Quedan ${products.length} productos en stock.\n`
+  );
+}
