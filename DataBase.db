@@ -1,0 +1,72 @@
+const autos = [
+    {
+        "id": 1,
+        "marca": "Ferrari",
+        "modelo": "",
+        "año": 2020,
+        "precio": 1000000
+    },
+    {
+        "id": 2,
+        "marca": "Ferrari",
+        "modelo": "",
+        "año": 2020,
+        "precio": 1000000
+    },
+    {
+        "id": 3,
+        "marca": "Bugatti",
+        "modelo": "",
+        "año": 2020,
+        "precio": 2000000
+    },
+    {
+        "id": 4,
+        "marca": "Lamborghini",
+        "modelo": "",
+        "año": 2020,
+        "precio": 1500000
+    },
+    {
+        "id": 5,
+        "marca": "Lamborghini",
+        "modelo": "",
+        "año": 2020,
+        "precio": 1200000
+    },
+    {
+        "id": 6,
+        "marca": "",
+        "modelo": "",
+        "año": 2020,
+        "precio": 800000
+    },
+    {
+        "id": 7,
+        "marca": "",
+        "modelo": "",
+        "año": 2020,
+        "precio": 900000
+    },
+    {
+        "id": 8,
+        "marca": "McLaren",
+        "modelo": "",
+        "año": 2020,
+        "precio": 1800000
+    },
+    {
+        "id": 9,
+        "marca": "McLaren",
+        "modelo": "",
+        "año": 2020,
+        "precio": 1700000
+    },
+    {
+        "id": 10,
+        "marca": "Koenigsegg",
+        "modelo": "",
+        "año": 2020,
+        "precio": 1600000
+    },
+] 
